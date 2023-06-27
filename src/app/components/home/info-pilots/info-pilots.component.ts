@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class InfoPilotsComponent {
 
-  cosas: any[] =[
+  pilotsData: any[] =[
     {
         title:'Capitan',
         image: '../../../assets/img-pilot/capitan.png',

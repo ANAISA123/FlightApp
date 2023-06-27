@@ -6,7 +6,7 @@ import { ContentComponent } from './content/content.component';
 const routes: Routes = [
   {
     path: '',
-    component: ContentComponent
+    component: ContentComponent 
   }
 ];
 
