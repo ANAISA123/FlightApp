@@ -2,12 +2,16 @@
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
-  ],
+ ],
   theme: {
     container:{
       center: true,
       padding: {
+<<<<<<< HEAD
         DEFAULT: '1rem',
+=======
+        default: '1rem',
+>>>>>>> origin/develop
         sm: '3rem',
         lg: '4rem',
       },
@@ -19,10 +23,16 @@ module.exports = {
           200: '#02889B'
         },
         secondary:'#FF693A'
+<<<<<<< HEAD
       },
     },
   },
 
+=======
+      },
+    },
+  },
+>>>>>>> origin/develop
   plugins: [],
 }
 
