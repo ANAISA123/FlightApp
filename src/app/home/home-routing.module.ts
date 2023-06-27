@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {ContentComponent} from "./content/content.component";
+import { InfoPilotsComponent } from './info-pilots/info-pilots.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: ContentComponent
+    component: InfoPilotsComponent
   }
 ];
 
