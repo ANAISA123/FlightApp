@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {pilotsData} from '../../../interfaces/info_pilots';
 
 @Component({
   selector: 'app-info-pilots',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class InfoPilotsComponent {
 
-  pilotsData: any[] =[
+  pilotsData: pilotsData[] =[
     {
         title:'Capitan',
         image: '../../../assets/img-pilot/capitan.png',
