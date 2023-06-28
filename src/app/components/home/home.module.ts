@@ -4,13 +4,15 @@ import { HomeRoutingModule } from './home-routing.module';
 import { ContentComponent } from './content/content.component';
 import { InfoPilotsComponent } from './info-pilots/info-pilots.component';
 import { FlightHoursComponent } from './flight-hours/flight-hours.component';
+import { FlyComponent } from './fly/fly.component';
 
 
 @NgModule({
   declarations: [
     ContentComponent,
     InfoPilotsComponent,
-    FlightHoursComponent
+    FlightHoursComponent,
+    FlyComponent
   ],
   imports: [
     CommonModule,
