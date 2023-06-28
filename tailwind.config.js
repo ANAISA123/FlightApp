@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{html,ts}",
  ],
   theme: {
+      fontFamily: {
+        'raleway': ['Raleway', 'sans-serif'],
+      },
     container:{
       center: true,
       padding: {
