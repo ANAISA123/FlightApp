@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { FlyComponent } from './components/home/fly/fly.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 
@@ -11,6 +12,7 @@ import { FlyComponent } from './components/home/fly/fly.component';
   declarations: [
     AppComponent,
     FlyComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
